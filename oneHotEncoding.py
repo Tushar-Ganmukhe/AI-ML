@@ -5,7 +5,7 @@ from sklearn.preprocessing import OneHotEncoder
 
 from My_Function import show_encoded_data as sh
 
-df=pd.read_csv('cars.csv')
+df=pd.read_csv('data\cars.csv')
 
 #------- oneHot encoding using pandas----note(it not store position of encodeaded colume so  not use in build ML models)
 
